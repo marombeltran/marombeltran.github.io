@@ -9,7 +9,7 @@ module.exports = {
         fontSize: {
             xs: '0.75rem',
             sm: '0.875rem',
-            base: '1rem',
+            base: '17px',
             lg: '1.125rem',
             xl: '36px',
             '2xl': '1.5rem',
@@ -37,13 +37,6 @@ module.exports = {
 
             '2xl': '1024px', // '1536px',
             // => @media (min-width: 1536px) { ... }
-        },
-        fontFamily: {
-            'sans': ['ui-sans-serif', 'system-ui'],
-            'serif': ['ui-serif', 'Georgia'],
-            'mono': ['ui-monospace', 'SFMono-Regular'],
-            'display': ['Oswald'],
-            'body': ['"Open Sans"'],
         },
         extend: {},
     },
