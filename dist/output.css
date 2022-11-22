@@ -940,12 +940,12 @@ video {
   width: 2.25rem;
 }
 
-.max-w-3xl {
-  max-width: 48rem;
-}
-
 .max-w-\[52rem\] {
   max-width: 52rem;
+}
+
+.max-w-3xl {
+  max-width: 48rem;
 }
 
 .flex-wrap {
@@ -1040,16 +1040,16 @@ video {
   padding-top: 1.5rem;
 }
 
+.pb-28 {
+  padding-bottom: 7rem;
+}
+
 .pt-8 {
   padding-top: 2rem;
 }
 
 .pb-10 {
   padding-bottom: 2.5rem;
-}
-
-.pb-28 {
-  padding-bottom: 7rem;
 }
 
 .pt-10 {
@@ -1647,10 +1647,6 @@ video {
 @media (min-width: 640px) {
   .sm\:ml-\[calc\(2rem\+1px\)\] {
     margin-left: calc(2rem + 1px);
-  }
-
-  .sm\:ml-\[calc\(1rem\+1px\)\] {
-    margin-left: calc(1rem + 1px);
   }
 
   .sm\:block {
