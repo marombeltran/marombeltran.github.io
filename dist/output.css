@@ -1100,6 +1100,10 @@ video {
   font-weight: 800;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .leading-6 {
   line-height: 1.5rem;
 }
@@ -1599,6 +1603,11 @@ video {
     fill: #0f172a;
   }
 
+  .dark\:text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+
   .dark\:text-slate-600 {
     --tw-text-opacity: 1;
     color: rgb(71 85 105 / var(--tw-text-opacity));
@@ -1622,11 +1631,6 @@ video {
   .dark\:text-sky-400 {
     --tw-text-opacity: 1;
     color: rgb(56 189 248 / var(--tw-text-opacity));
-  }
-
-  .dark\:text-white {
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 
   .dark\:hover\:text-white:hover {
