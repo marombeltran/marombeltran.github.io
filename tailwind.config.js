@@ -3,6 +3,11 @@ module.exports = {
     // content: ["./src/**/*.{html,js}"],
     content: ["./**/*.html"],
     theme: {
+        listStyleType: {
+            none: 'none',
+            disc: 'disc',
+            decimal: 'decimal'
+        },
         fontFeatureSettings: {
             numeric: ['tnum', 'salt', 'ss02']
         },
